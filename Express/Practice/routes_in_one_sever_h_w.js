@@ -19,8 +19,7 @@ app.get('/repository', (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server is running on port  http://localhost:${PORT}`);
+  console.log(`To get infomation about me ,  http://localhost:${PORT}/about`);
+  console.log(`To get my contact information ,  http://localhost:${PORT}/contact`);
+  console.log(`To get my repository information ,  http://localhost:${PORT}/repository`);
 });
-
-console.log(`To get infomation about me ,  http://localhost:${PORT}/about`);
-console.log(`To get my contact information ,  http://localhost:${PORT}/contact`);
-console.log(`To get my repository information ,  http://localhost:${PORT}/repository`);
